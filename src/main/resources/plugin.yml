@@ -1,0 +1,20 @@
+name: UltraVanish
+version: '1.0-SNAPSHOT'
+main: pl.FixeQ.ultraVanish.UltraVanish
+api-version: '1.18'
+prefix: UltraVanish
+authors: [ FixeQ ]
+commands:
+  vanish:
+    description: Toggle vanish mode.
+    usage: /vanish
+    permission: ultravanish.command
+    aliases:
+      - v
+permissions:
+  ultravanish.command:
+    description: Allows the player to use the /vanish command.
+    default: op
+  ultravanish.see:
+    description: Allows the player to see vanished players and the lightning effect.
+    default: op
